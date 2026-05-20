@@ -5,10 +5,10 @@ import time
 API     = "https://en.wikipedia.org/w/api.php"
 HEADERS = {"User-Agent": "cs108-lab/1.0 (cs108@wallawalla.edu)"}
 
-START  = "Walla Walla, Washington"
-TARGET = "Ancient Egypt"
-MAX_LINKS = 20       # links to follow per page
-MAX_DEPTH = 5        # give up after this many hops
+START  = "Pixar"
+TARGET = "Bread"
+MAX_LINKS = 30       # links to follow per page
+MAX_DEPTH = 10       # give up after this many hops
 
 def get_links(title):
     params = {
